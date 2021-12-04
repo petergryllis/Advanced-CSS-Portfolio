@@ -23,7 +23,7 @@ padding-right: 0;
 background-color: lightblue;
 }
 nav {
-  align: right;
+  align-items: right;
 }
 
 nav a {
@@ -91,6 +91,9 @@ footer {
 .text-right {
   text-align: right;
 }
-.in-line-elements {
-  display: inline !important;
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
