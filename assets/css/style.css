@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
-  
 }
 
 body {
@@ -121,6 +120,7 @@ section li {
   padding: 14px;
   /*text-decoration: underline 3px*/
   font-size: 17px;
+
   font-weight: bolder;
 
 }
@@ -135,3 +135,30 @@ section li {
   font-weight: bolder;
 
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  body {
+    aside {
+      flex: 1;
+      grid-column: 1/3;
+      background-color: #edeef7;
+      color: #4c6482;
+      padding: 0;
+      display: inline-flex;
+      justify-content: flex-end;
+
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
