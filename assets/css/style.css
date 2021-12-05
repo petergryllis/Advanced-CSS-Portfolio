@@ -16,8 +16,9 @@ header {
   padding: 5px;
   background: rgb(77, 76, 76);
   color: #fff;
-  height: 100px;
+  height: 50px;
   align-content: center;
+  display: inline-flex;
 }
 
 aside h2 {
@@ -32,10 +33,12 @@ nav {
 
 nav a {
   color: #7dcece;
+  text-decoration: underline !important;
   padding: 10px;
   text-align: right;
   text-decoration: none;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 main {
