@@ -95,6 +95,10 @@ footer {
   
 }
 
+.images {
+
+
+}
 
 /* Class Selectors */
 .text-center {
@@ -140,6 +144,13 @@ section li {
 
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+  border-left: 3px solid #4c6482;
+  padding-left: 3px;
+
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
