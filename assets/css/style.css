@@ -17,8 +17,9 @@ header {
   background: rgb(77, 76, 76);
   color: #fff;
   height: 50px;
-  align-content: right;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 aside h2 {
@@ -118,7 +119,7 @@ section li {
   margin-top: -10px;
   text-align: right;
   padding: 14px;
-  text-decoration: underline 3px;
+  /*text-decoration: underline 3px*/
   font-size: 17px;
   font-weight: bolder;
 
