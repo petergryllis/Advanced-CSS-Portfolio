@@ -7,16 +7,15 @@
 body {
   font-family:Arial, Helvetica, sans-serif;
   display: grid;
-
 }
 
 .imagewidth {
-  grid: 1/12;
+  grid: 1/13;
   object-fit: cover;
   box-sizing: border-box;
   height: 150px;
   padding: 0;
-  background-image: url('../../assets/Artefacts/arrow.jpeg');
+  background-image: url('../../assets/Artefacts/hugo-wai-P0sop3lKC9I-unsplash.jpg');
   border: 1px solid none;
   background-size: 100% 100%;
 }
@@ -30,7 +29,7 @@ header {
   padding: 5px;
   background: rgb(77, 76, 76);
   color: #fff;
-  height: 50px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -171,4 +170,10 @@ li {
   float: left;
 
 }
+.headerimagetext {
+  color: black;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 30px;
 
+}
