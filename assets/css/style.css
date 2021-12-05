@@ -50,6 +50,7 @@ main {
   flex-wrap: wrap;
   position: relative;
 
+
 }
 
 aside {
@@ -60,6 +61,8 @@ aside {
   padding: 0;
   display: inline-flex;
   justify-content: flex-end;
+  max-width: 200px !important;
+  min-width: 200px !important;
 }
 
 section {
@@ -89,6 +92,7 @@ footer {
   width: relative;
   border-left: 3px solid #4c6482;
   padding-left: 3px;
+  
 }
 
 
