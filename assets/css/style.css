@@ -11,12 +11,13 @@ body {
 }
 
 .imagewidth {
+  grid: 1/12;
   object-fit: cover;
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
   height: 150px;
   padding: 0;
-  background-image: url('../../assets/Artefacts/blue-background.jpeg');
+  background-image: url('../../assets/Artefacts/arrow.jpeg');
   border: 1px solid none;
   background-size: 100% 100%;
 }
@@ -158,25 +159,27 @@ li {
 .responsive {
   width: 100%;
   height: auto;
-  padding-left: 3px;
+  /* padding-left: 3px; */
 
 }
 
 .responsive50 {
+  /*width: 50%;*/
   width: 50%;
-  height: auto;
-  max-width: 300px;
-  min-width: 400px;
-  padding-left: 3px;
+  height: 20%;
+  /*max-width: 300px;
+  min-width: 400px;*/
+  /* padding-left: 3px; */
 
 }
 .inlineimageleft {
-  height:auto;
+  height: 20%;
+  /*width: 50%;*/
   width: 50%;
-  max-width: 300px;
-  min-width: 400px;
+  /* max-width: 300px;
+  min-width: 400px; */
   float: left;
-  padding: 5px;
+  /* padding: 5px; */
 
 }
 
