@@ -162,10 +162,25 @@ li {
 
 }
 
-.inlineimage {
+.responsive50 {
+  width: 50%;
+  height: auto;
+  max-width: 300px;
+  min-width: 400px;
+  padding-left: 3px;
+
+}
+.inlineimageleft {
   height:auto;
-  width: 100%;
-  flex: 50%;
+  width: 50%;
+  max-width: 300px;
+  min-width: 400px;
+  float: left;
   padding: 5px;
 
+}
+
+.transform {
+  transform: scale(0.5);
+  float: left;
 }
