@@ -263,13 +263,25 @@ li {
   
 }
 
-.boxtextimage {
-  height: auto;
-  width: 10%;
-  text-align:center;
-  background: #7dcece;
+.containerforimages {
+  position: relative;
+}
+.containerforimagesbox {
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  background-color: #7dcece;
   color: rgb(77, 76, 76);
   position:relative;
-  bottom: -65%;
-  left: 10%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+a {
+  padding-left: 0;
+}
+.Profilepic {
+  position:relative;
+  height: 30%;
+  width: 30%;
+  padding-left: 0;
 }
