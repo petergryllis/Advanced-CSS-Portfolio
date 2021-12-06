@@ -6,13 +6,15 @@
 
 body {
   font-family:Arial, Helvetica, sans-serif;
-  display: grid;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
 }
 
 .imagewidth {
-  grid: 1/13;
+  /* grid-area: auto; */
+  display: 100%;
   object-fit:cover;
-  flex-grow: var(100%);
+  /* flex-grow: var(100%); */
   box-sizing: border-box;
   height: 120px;
   padding: 0;
@@ -26,7 +28,7 @@ body {
 }
 
 header {
-  grid-column: 1/13;
+  /* grid-column: 1/13; */
   padding: 5px;
   background: rgb(77, 76, 76);
   color: #fff;
@@ -38,8 +40,9 @@ header {
 }
 
 .boxheaderimage {
+  /* grid: 1/2; */
   height: 50%;
-  width: 100%;
+  width: auto;
   text-align: center;
   background: #7dcece;
   color: rgb(77, 76, 76);
@@ -50,15 +53,15 @@ header {
 
 .boxpicture {
   height: auto;
-  width: 100%;
-  display: flexbox;
-  flex-wrap: wrap;
-  text-align:justify;
+  width: 25%;
+  /* display: flexbox;
+  flex-wrap: wrap; */
+  text-align:center;
   background: #7dcece;
   color: rgb(77, 76, 76);
   position:relative;
-  bottom: -30%;
-  left: 250%;
+  bottom: -50%;
+  left: 70%;
 }
 
 aside h2 {
@@ -246,4 +249,7 @@ li {
 .flexboxcontact {
   flex-wrap: wrap;
   flex-direction: row;
+  float: left;
+  
+
 }
