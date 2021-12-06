@@ -177,3 +177,49 @@ li {
   margin-right: 30px;
 
 }
+
+.boximages {
+ width: 100%;
+ height: auto;
+ border: 1px solid #4c6482;
+ background: #4c6482;
+ margin: auto;
+ padding: 2px 2px;
+}
+ .boximages:hover {
+   opacity: .5;
+   /* display: block; */
+   background-color: #4c6482;
+   width: 100%;
+   height: auto;
+   transition: .5s;
+ }
+
+  /* background-position: bottom 5px left 5px; */
+  /* padding: 2em; */
+  /* padding: 0.5rem;
+  color: #7dcece; */
+  /* box-shadow: 5px 5px #7dcece; */
+
+
+.maincard:hover {
+  /* box-shadow: 5px 5px 5px 5px #7dcece ; */
+}
+
+.boximages50 {
+  width: 50%;
+  height: auto;
+  border: 1px solid #4c6482;
+  background: #4c6482;
+  margin: auto;
+  padding: 2px 2px;
+}
+
+.boximages50:hover {
+  opacity: .5;
+  /* display: block; */
+  background-color: #4c6482;
+  width: 50%;
+  height: auto;
+  transition: .5s;
+}
