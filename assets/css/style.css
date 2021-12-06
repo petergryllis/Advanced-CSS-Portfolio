@@ -11,9 +11,10 @@ body {
 
 .imagewidth {
   grid: 1/13;
-  object-fit: cover;
+  object-fit:cover;
+  flex-grow: var(100%);
   box-sizing: border-box;
-  height: 150px;
+  height: 120px;
   padding: 0;
   background-image: url('../../assets/Artefacts/hugo-wai-P0sop3lKC9I-unsplash.jpg');
   border: 1px solid none;
@@ -33,6 +34,31 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position:relative;
+}
+
+.boxheaderimage {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  background: #7dcece;
+  color: rgb(77, 76, 76);
+  position:relative;
+  bottom: 0px;
+  left: -25px;
+}
+
+.boxpicture {
+  height: auto;
+  width: 100%;
+  display: flexbox;
+  flex-wrap: wrap;
+  text-align:justify;
+  background: #7dcece;
+  color: rgb(77, 76, 76);
+  position:relative;
+  bottom: -30%;
+  left: 250%;
 }
 
 aside h2 {
@@ -47,7 +73,7 @@ nav{
 nav a {
   color: #7dcece;
   text-decoration: underline 3px !important;
-  padding: 10px;
+  padding: 3px;
   text-align: right;
   text-decoration: none;
   margin-right: 0;
@@ -170,46 +196,29 @@ li {
   float: left;
 
 }
-.headerimagetext {
-  color: black;
-  position: relative;
-  margin-bottom: 20px;
-  margin-right: 30px;
 
-}
 
 .boximages {
  width: 100%;
  height: auto;
- border: 1px solid #4c6482;
+ border: 3px solid #4c6482;
  background: #4c6482;
  margin: auto;
  padding: 2px 2px;
 }
  .boximages:hover {
    opacity: .5;
-   /* display: block; */
    background-color: #4c6482;
    width: 100%;
    height: auto;
    transition: .5s;
  }
 
-  /* background-position: bottom 5px left 5px; */
-  /* padding: 2em; */
-  /* padding: 0.5rem;
-  color: #7dcece; */
-  /* box-shadow: 5px 5px #7dcece; */
-
-
-.maincard:hover {
-  /* box-shadow: 5px 5px 5px 5px #7dcece ; */
-}
 
 .boximages50 {
-  width: 50%;
+  width: 48.5%;
   height: auto;
-  border: 1px solid #4c6482;
+  border: 3px solid #4c6482;
   background: #4c6482;
   margin: auto;
   padding: 2px 2px;
@@ -217,9 +226,24 @@ li {
 
 .boximages50:hover {
   opacity: .5;
-  /* display: block; */
   background-color: #4c6482;
-  width: 50%;
+  width: 48.5%;
   height: auto;
   transition: .5s;
+}
+.imagefloatleft {
+  float:left;
+}
+
+.imagefloatright {
+  float:right;
+}
+
+.imagemargintop {
+  margin-top: 15px;
+}
+
+.flexboxcontact {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
