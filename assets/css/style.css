@@ -21,6 +21,8 @@ body {
   background-image: url('../../assets/Artefacts/hugo-wai-P0sop3lKC9I-unsplash.jpg');
   border: 1px solid none;
   background-size: 100% 100%;
+  position: relative;
+  top: -20px;
 }
 .textalignright {
   margin-left: 20px;
@@ -133,10 +135,15 @@ section {
 .boxlarger {
   border-top: 25px solid #edeef7;
   border-bottom: 25px solid #edeef7;
+  position: relative;
+  top: -20px;
 }
 
 .boxlargerbottom {
   border-bottom: 25px solid #edeef7;
+  position: relative;
+  top: -20px;
+
 }
 /* Class Selectors */
 .text-center {
