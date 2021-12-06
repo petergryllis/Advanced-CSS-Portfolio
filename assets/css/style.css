@@ -16,7 +16,7 @@ body {
   object-fit:cover;
   /* flex-grow: var(100%); */
   box-sizing: border-box;
-  height: 120px;
+  height: 160px;
   padding: 0;
   background-image: url('../../assets/Artefacts/hugo-wai-P0sop3lKC9I-unsplash.jpg');
   border: 1px solid none;
@@ -55,14 +55,14 @@ header {
 
 .boxpicture {
   height: auto;
-  width: 25%;
+  width: 18%;
   /* display: flexbox;
   flex-wrap: wrap; */
   text-align:center;
   background: #7dcece;
   color: rgb(77, 76, 76);
   position:relative;
-  bottom: -50%;
+  bottom: -65%;
   left: 70%;
 }
 
@@ -257,6 +257,7 @@ li {
   flex-wrap: wrap;
   flex-direction: row;
   float: left;
+  position: relative;
+  top: 20%;
   
-
 }
