@@ -6,15 +6,12 @@
 
 body {
   font-family:Arial, Helvetica, sans-serif;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
+
 }
 
 .imagewidth {
-  /* grid-area: auto; */
   display: 100%;
   object-fit:cover;
-  /* flex-grow: var(100%); */
   box-sizing: border-box;
   height: 160px;
   padding: 0;
@@ -24,13 +21,13 @@ body {
   position: relative;
   top: -20px;
 }
+
 .textalignright {
   margin-left: 20px;
 
 }
 
 header {
-  /* grid-column: 1/13; */
   padding: 5px;
   background: rgb(77, 76, 76);
   color: #fff;
@@ -42,7 +39,6 @@ header {
 }
 
 .boxheaderimage {
-  /* grid: 1/2; */
   height: 50%;
   width: auto;
   text-align: center;
@@ -81,8 +77,7 @@ nav a {
   padding: 3px;
   text-align: right;
   text-decoration: none;
-  margin-right: 0;
-  
+  margin-right: 0; 
 }
 
 
@@ -93,8 +88,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-
-
 }
 
 aside {
@@ -260,7 +253,6 @@ li {
   float: left;
   position: relative;
   top: 20%;
-  
 }
 
 .containerforimages {
@@ -297,22 +289,4 @@ a {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.text-blockPG {
-  position: absolute;
-  transform: translate(0 , 200%);
-  background-color: #7dcece;
-  color: white;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.text-blockCQ {
-  position: absolute;
-  transform: translate(253% , 200%);
-  background-color: #7dcece;
-  color: white;
-  padding-left: 0px;
-  padding-right: 0px;
 }
