@@ -192,14 +192,45 @@ section {
   height: auto;
 }
 
+/* Settings for larger image under Work and hover feature */
+.boximages {
+  width: 100%;
+  height: auto;
+  border: 3px solid #4c6482;
+  background: #4c6482;
+  margin: auto;
+  padding: 2px 2px;
+ }
+
+ .boximages:hover {
+  opacity: .5;
+  background-color: #4c6482;
+  width: 100%;
+  height: auto;
+  transition: .5s;
+ }
+
+/* Text block settings showing Code Refactor words */
+
+.text-blockCR {
+  position: absolute;
+  transform: translate(0 , -130%);
+  background-color: #7dcece;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 /* Image settings for auto adjust - smaller work images at 50% */
 
 .responsive50 {
   width: 50%;
   height: auto;
   max-height: 200px;
-
 }
+
+/* Settings for smaller work images */
 .inlineimageleft {
   height: auto;
   width: 50%;
@@ -209,21 +240,7 @@ section {
 }
 
 
-.boximages {
- width: 100%;
- height: auto;
- border: 3px solid #4c6482;
- background: #4c6482;
- margin: auto;
- padding: 2px 2px;
-}
- .boximages:hover {
-   opacity: .5;
-   background-color: #4c6482;
-   width: 100%;
-   height: auto;
-   transition: .5s;
- }
+
 
 
 .boximages50 {
@@ -284,11 +301,3 @@ a {
   position: relative;
 }
 
-.text-blockCR {
-  position: absolute;
-  transform: translate(0 , -130%);
-  background-color: #7dcece;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
