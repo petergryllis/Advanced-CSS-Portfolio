@@ -4,6 +4,7 @@
   padding-right: 20px;
 }
 
+/* Body font settings */
 body {
   font-family:Arial, Helvetica, sans-serif;
 
@@ -213,6 +214,7 @@ section {
  a {
   padding-left: 0;
 }
+
 /* Text block settings showing Code Refactor words */
 
 .text-blockCR {
@@ -278,27 +280,3 @@ section {
   position: relative;
   top: 20%;
 }
-
-/* .containerforimages {
-  position: relative;
-} */
-
-/* .containerforimagesbox {
-  position: absolute;
-  bottom: 3%;
-  left: 5%;
-  background-color: #7dcece;
-  color: rgb(77, 76, 76);
-  position:relative;
-  padding-left: 2px;
-  padding-right: 2px;
-} */
-
-
-
-
-
-.holdingcontainer {
-  position: relative;
-}
-
