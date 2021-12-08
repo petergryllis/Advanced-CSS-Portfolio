@@ -133,15 +133,6 @@ section {
   top: -20px;
 }
 
-/* .sample-img {
-  background-color: #fff;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
-  border: 1px solid black;
-} */
-
-
 /* Class Text Selectors */
 .text-center {
   text-align: center;
@@ -152,15 +143,6 @@ section {
 .text-right {
   text-align: right;
 }
-
-/* List selectors - navigation and Contract links*/
-/* li {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  color: #7dcece;
-  
-} */
 
 /* Link settings for navigation links  */
 .links-right {
@@ -238,7 +220,7 @@ section {
 /* Settings for smaller work images i.e. hover, float left and right, margins,  */
 .inlineimageleft {
   height: auto;
-  width: 50%;
+  width: 48.5%;
   max-height: 200px;
   float: left;
 }
