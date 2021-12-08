@@ -192,7 +192,7 @@ section {
   height: auto;
 }
 
-/* Settings for larger image under Work and hover feature */
+/* Settings for larger image under Work and hover feature. Also adjust padding for larger image due to inherited padding */
 .boximages {
   width: 100%;
   height: auto;
@@ -210,6 +210,9 @@ section {
   transition: .5s;
  }
 
+ a {
+  padding-left: 0;
+}
 /* Text block settings showing Code Refactor words */
 
 .text-blockCR {
@@ -230,18 +233,13 @@ section {
   max-height: 200px;
 }
 
-/* Settings for smaller work images */
+/* Settings for smaller work images i.e. hover, float left and right, margins,  */
 .inlineimageleft {
   height: auto;
   width: 50%;
   max-height: 200px;
   float: left;
-
 }
-
-
-
-
 
 .boximages50 {
   width: 48.5%;
@@ -259,6 +257,7 @@ section {
   height: auto;
   transition: .5s !important;
 }
+
 .imagefloatleft {
   float:left;
 }
@@ -271,6 +270,7 @@ section {
   margin-top: 15px;
 }
 
+/* Flex box for contact details */
 .flexboxcontact {
   flex-wrap: wrap;
   flex-direction: row;
@@ -279,10 +279,11 @@ section {
   top: 20%;
 }
 
-.containerforimages {
+/* .containerforimages {
   position: relative;
-}
-.containerforimagesbox {
+} */
+
+/* .containerforimagesbox {
   position: absolute;
   bottom: 3%;
   left: 5%;
@@ -291,10 +292,10 @@ section {
   position:relative;
   padding-left: 2px;
   padding-right: 2px;
-}
-a {
-  padding-left: 0;
-}
+} */
+
+
+
 
 
 .holdingcontainer {
