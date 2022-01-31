@@ -1,26 +1,21 @@
 # Advanced-CSS-Portfolio
 
 ## Description
-The weather application was built using CSS, HTML and Javascript. The weather data was obtained from the free API openweather.org https://openweathermap.org. 
+The advanced CC portfolio was developed using html and css code to link software development project that have been completed to date. 
 
 ## User Story
-Where someone needs to search for the weather of a city they can type the city they are interested in and it will display the current weather as well as the forecast for the next 5 days. 
+Someone wants to see my experience and see software development projects that I have completed then they can see these through this site.
 
 ## Installation
-The application for the weather app can be accessed throught the following github repo:
-https://github.com/petergryllis/Weather_App_v1
-
-
-This website can be viewed at the following link:
-https://petergryllis.github.io/Weather_App_v1/ 
+The link to the website is available at https://petergryllis.github.io/Advanced-CSS-Portfolio/.
 
 ## Usage
 
-The application can be accessed by anyone through a web browser at the link above. Once the user has entered the city they seek to search and click submit, they will be presented with the current weather of the city they have selected along with the forecast for this city for the next 5 days.
+The application can be accessed by anyone through a web browser at the link above.
 
 See screenshot below.
 
-![Screenshot](Assets/WeatherApp_Screenshot.png)
+![Screenshot](Assets/Screenshot.png)
 
 ## License
 Licensed under the [MIT License](LICENSE).
