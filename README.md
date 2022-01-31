@@ -15,7 +15,7 @@ The application can be accessed by anyone through a web browser at the link abov
 
 See screenshot below.
 
-![Screenshot](Assets/Screenshot.png)
+![Screenshot](assets/Artefacts/Screenshot.png)
 
 ## License
 Licensed under the [MIT License](LICENSE).
