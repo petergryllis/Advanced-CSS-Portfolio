@@ -220,13 +220,13 @@ section {
 /* Settings for smaller work images i.e. hover, float left and right, margins,  */
 .inlineimageleft {
   height: auto;
-  width: 48.5%;
+  width: 47%;
   max-height: 200px;
   float: left;
 }
 
 .boximages50 {
-  width: 48.5%;
+  width: 47%;
   height: auto;
   border: 3px solid #4c6482;
   background: #4c6482;
